@@ -1,1 +1,33 @@
+# Reference materials (not part of submission)
 Daedalus.zip
+Daedalus_extracted/
+AI Engineer Assessment.pdf
+
+# Environment
+.env
+__pycache__/
+*.pyc
+.pytest_cache/
+*.egg-info/
+
+# IDE
+.vscode/
+.idea/
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Colab/Jupyter
+.ipynb_checkpoints/
+
+# ChromaDB local storage
+chroma_db/
+
+# Model artifacts (too large for git)
+*.bin
+*.safetensors
+*.gguf
+
+# Logs generated during runs
+*.log
